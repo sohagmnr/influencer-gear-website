@@ -9,6 +9,7 @@ body{
     font-family: "Poppins", sans-serif;
     background: rgb(255, 255, 255);
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 header{
@@ -143,8 +144,7 @@ main{
 
 
 .section-3{
-    max-width: 1440px;
-    
+max-width: 1047px;    
     
 
 }
@@ -199,4 +199,42 @@ main{
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 5px;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+.footer-details{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+.social-icon{
+    width: 17px;
+    height: 17px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+    
+}
+.icon-container{
+    width: 32px;
+    height: 32px;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
